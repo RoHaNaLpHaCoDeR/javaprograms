@@ -1,4 +1,4 @@
-public class cwh_09_ch2_op_pre {
+public class CWH_CH2_09_OP_PRE {
     public static void main(String[] args) {
         int a  =6*5-34/2;
         // check precedence first but associativity is used only to break the tie between the operators
