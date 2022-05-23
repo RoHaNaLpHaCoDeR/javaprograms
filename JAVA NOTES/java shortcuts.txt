@@ -1,0 +1,8 @@
+JAVA SHORTCUTS
+
+1.write main for public void static main(String args[]) 
+2.write sout for System.out.println()
+3.ctrl+d to duplicate any line
+4.for any function in java written in camelCase take the initials and then hit enter you do no need to write the whole function 
+just write only the its initials.
+5.to import a class for any function just hover over the function and hit alt+enter
