@@ -31,6 +31,6 @@ public class CWH_CH9_31_Constructor {
 //        rohan.setId(34);
 //        rohan.setName("Rohan Arora");
         System.out.println(rohan.getId());
-        System.out.println(rohan.getName());
+         System.out.println(rohan.getName());
     }
 }

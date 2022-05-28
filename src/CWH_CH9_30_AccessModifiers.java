@@ -22,6 +22,5 @@ public class CWH_CH9_30_AccessModifiers {
         Rohan.setName("CodeWithRohan");
         System.out.println(Rohan.getId());
         System.out.println(Rohan.getName());
-
     }
 }
