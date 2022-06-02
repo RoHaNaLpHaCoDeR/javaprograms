@@ -32,7 +32,7 @@ abstract class Ojaswi extends Student{
     }
 }
 
-public class CWH_CH11_37_AbstractClassInterfaces {
+public class CWH_CH11_37_AbstractClass {
     public static void main(String[] args) {
         Rohan R = new Rohan();
         R.firstname(2);
@@ -40,5 +40,8 @@ public class CWH_CH11_37_AbstractClassInterfaces {
         System.out.println(R.calculate_marks(34.65,54.76));
         // Student st = new Student();
         // Objects of abstract class cannot be created or instantiated
+        Student st = new Rohan(); // Possible
+        // Abstract class reference can be used to instantiate using
+        // concrete class object.
     }
 }
