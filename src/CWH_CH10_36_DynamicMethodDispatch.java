@@ -24,7 +24,7 @@ public class CWH_CH10_36_DynamicMethodDispatch {
 //        SmartPhone smobj = new SmartPhone(); // Allowed
 //        obj.name();
         Phone obj = new SmartPhone(); // Allowed
-        // Jiska Object hain usi ke methods run honge hamesha
+        // Jiska Object Ka reference hain usi ke methods run honge hamesha
         // Learn it as Super Sub
 //        SmartPhone obj2 = new Phone(); // Not Allowed
         obj.greet();
