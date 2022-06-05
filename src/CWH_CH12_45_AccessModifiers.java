@@ -11,9 +11,15 @@ class C1{
         System.out.println(a);
     }
 }
+
+
 public class CWH_CH12_45_AccessModifiers {
     public static void main(String[] args) {
         C1 c = new C1();
-        c.method();
+//        c.method();
+//        System.out.println(c.x);
+//        System.out.println(c.y);
+//        System.out.println(c.z);
+        System.out.println(c.a);
     }
 }
