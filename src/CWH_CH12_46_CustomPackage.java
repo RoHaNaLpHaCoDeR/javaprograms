@@ -1,5 +1,9 @@
 package com.codewithrohan.shape;
 
+class Rectangle{
+
+}
+
 /*
 Write this code in  Notepad!!!
 you have to create a package named com.codewithrohan.shape
