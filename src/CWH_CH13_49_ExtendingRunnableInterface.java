@@ -82,7 +82,7 @@ class MyRunnableThread2 implements Runnable{
     }
 }
 
-public class CWH_CH13_ExtendingRunnableInterface {
+public class CWH_CH13_49_ExtendingRunnableInterface {
     public static void main(String[] args) {
         MyRunnableThread1 bullet1 = new MyRunnableThread1();
         MyRunnableThread2 bullet2 = new MyRunnableThread2();
