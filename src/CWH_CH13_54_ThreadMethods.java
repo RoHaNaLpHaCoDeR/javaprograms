@@ -19,10 +19,22 @@ class MyThr2 extends Thread{
     }
 }
 
+class MyThr3 extends Thread{
+    public MyThr3() {
+        System.out.println("I am a constructor ");
+    }
+    @Override
+    public void run() {
+        while(true){
+            System.out.println("My Thank You " + this.getId());
+        }
+    }
+}
+
 public class CWH_CH13_54_ThreadMethods {
     public static void main(String[] args) {
         MyThr2 mtr1 = new MyThr2();
-        MyThr2 mtr2 = new MyThr2();
+        MyThr3 mtr2 = new MyThr3();
         mtr1.start();
         try{
             mtr1.join();
