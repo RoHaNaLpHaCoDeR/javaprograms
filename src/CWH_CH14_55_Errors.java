@@ -7,7 +7,9 @@ public class CWH_CH14_55_Errors {
         // b = 8; // Error: b not declared!
 
         // LOGICAL ERROR DEMO
-        // Write a program to print all prime numbers between 1 to 10
+        // Write a program to print a
+        //
+        // ll prime numbers between 1 to 10
         System.out.println(2);
         for (int i=1; i<5; i++){
             System.out.println(2*i+1);
