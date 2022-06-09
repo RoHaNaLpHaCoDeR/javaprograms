@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class CWH_CH1_Practice {
+public class CWH_CH1_PS1 {
     public static void main(String[] args) {
 //        Scanner sc = new Scanner(System.in);
 //        System.out.println("Enter numbers of Subject 1");
