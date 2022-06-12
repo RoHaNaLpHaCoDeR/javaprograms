@@ -1,3 +1,4 @@
+import java.time.*;
 public class CWH_CH15_72_Time {
     public static void main(String[] args) {
         /*
@@ -10,5 +11,11 @@ public class CWH_CH15_72_Time {
         of solving problems faced by Java developers while handling date and time
         with java.util package such as representing a date without time, etc.
          */
+        Clock cl = Clock.systemDefaultZone();
+        System.out.println(cl.getZone());
+
+        Clock c2 = Clock.systemUTC();
+        System.out.println(c2.instant());
+
     }
 }
