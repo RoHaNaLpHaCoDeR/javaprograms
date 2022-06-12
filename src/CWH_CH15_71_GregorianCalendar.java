@@ -61,6 +61,16 @@ public class CWH_CH15_71_GregorianCalendar {
 
         System.out.println("The hashcode for this calendar is : "+ c.hashCode());
 
-
+        Calendar d = Calendar.getInstance();
+        System.out.println(d.get(Calendar.SECOND));
+        System.out.println(d.getTime());
+        System.out.println(d.get(Calendar.DATE));
+        System.out.println(d.get(Calendar.HOUR));
+        System.out.println(d.get(Calendar.HOUR_OF_DAY) + ":" + d.get(Calendar.MINUTE) + ":" + c.get(Calendar.SECOND));
+        GregorianCalendar dal = new GregorianCalendar();
+        System.out.println(dal.isLeapYear(2018));
+        System.out.println(TimeZone.getAvailableIDs()[0]);
+        System.out.println(TimeZone.getAvailableIDs()[1]);
+        System.out.println(TimeZone.getAvailableIDs()[2]);
     }
 }
