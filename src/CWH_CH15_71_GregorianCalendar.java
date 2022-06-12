@@ -1,3 +1,4 @@
+import java.util.*;
 public class CWH_CH15_71_GregorianCalendar {
     public static void main(String[] args) {
         /*
@@ -41,5 +42,25 @@ public class CWH_CH15_71_GregorianCalendar {
         7. GregorianCalendar(TimeZone timeZone, Locale locale): Initializes an object
            with the locale and timezone passed as parameters.
          */
+
+
+        GregorianCalendar cal = new GregorianCalendar();
+        System.out.println(cal.isLeapYear(2000));
+        System.out.println(cal.isLeapYear(2021));
+
+        GregorianCalendar c = new GregorianCalendar();
+        System.out.println("Date before rolling : " + c.getTime());
+
+        c.roll(Calendar.MONTH, true);
+        c.roll(Calendar.DATE, false);
+        c.roll(Calendar.YEAR, true);
+
+        System.out.println("Date after rolling : " + c.getTime());
+
+        System.out.println("Calendar : " + c.getTime());
+
+        System.out.println("The hashcode for this calendar is : "+ c.hashCode());
+
+
     }
 }
