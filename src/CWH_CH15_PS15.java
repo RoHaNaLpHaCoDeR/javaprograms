@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Date;
 
 public class CWH_CH15_PS15 {
     public static void main(String[] args) {
@@ -18,5 +19,8 @@ public class CWH_CH15_PS15 {
             System.out.println(o);
         }
 
+        // PS Q2
+        Date d = new Date();
+        System.out.println(d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds());
     }
 }
