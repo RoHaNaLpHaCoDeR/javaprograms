@@ -3,6 +3,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.HashSet;
 
 public class CWH_CH15_PS15 {
     public static void main(String[] args) {
@@ -35,5 +36,15 @@ public class CWH_CH15_PS15 {
         DateTimeFormatter df = DateTimeFormatter.ofPattern("H:m:s"); // This is the format
         String myDate = dt.format(df); // Creating date string using date and format
         System.out.println(myDate);
+
+        // PS Q5
+        HashSet<Integer> s = new HashSet();
+        s.add(5);
+        s.add(6);
+        s.add(46);
+        s.add(60);
+        s.add(9);
+        s.add(6);
+        System.out.println(s);
     }
 }
