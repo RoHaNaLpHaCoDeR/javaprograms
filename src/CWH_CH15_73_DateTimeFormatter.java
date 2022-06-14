@@ -1,3 +1,6 @@
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
 public class CWH_CH15_73_DateTimeFormatter {
     public static void main(String[] args) {
         /*
@@ -13,5 +16,14 @@ public class CWH_CH15_73_DateTimeFormatter {
         Return Value :
         Returns the string in the format specified by the user.
          */
+
+        LocalDateTime dt = LocalDateTime.now();
+        System.out.println("The current date is : " + dt);
+
+        DateTimeFormatter df = DateTimeFormatter.ofPattern("dd.MM.yyyy"); // This is the format
+
+        String myDate = dt.format(df); // Creating date string using date and format
+        System.out.println("Date after formatting : "+ myDate);
+
     }
 }
