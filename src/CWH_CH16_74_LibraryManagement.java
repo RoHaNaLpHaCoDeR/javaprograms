@@ -5,7 +5,8 @@ public class CWH_CH16_74_LibraryManagement {
         Book should have info like:
         1. Book name
 2. Book Author
-
+3. Issued to
+4. Issued on
          */
     }
 }
