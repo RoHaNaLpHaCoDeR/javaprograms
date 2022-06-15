@@ -8,7 +8,7 @@ public class CWH_CH16_74_LibraryManagement {
         3. Issued to
         4. Issued on
         User should be able to add books, return issued books, issue books
-
+        Assume that all the users are registered with their names in the central database
          */
     }
 }
