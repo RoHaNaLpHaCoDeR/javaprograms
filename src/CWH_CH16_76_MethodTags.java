@@ -16,10 +16,10 @@ public class CWH_CH16_76_MethodTags {
      * @throws Exception if i is 0
      * @deprecated This method is deprecated please use + Operator
      */
-//    public int add(int i, int j) throws Exception{
-//        if(i==0){
-//            throw new Exception();
-//        }
+    public int add(int i, int j) throws Exception{
+        if(i==0){
+            throw new Exception();
+        }
 //        int c;
 //        c= i+ j;
 //        return c;
