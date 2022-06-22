@@ -22,6 +22,6 @@ public class CWH_CH16_76_MethodTags {
         }
         int c;
         c= i+ j;
-//        return c;
-//    }
+        return c;
+    }
 }
