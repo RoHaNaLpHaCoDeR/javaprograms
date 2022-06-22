@@ -20,8 +20,8 @@ public class CWH_CH16_76_MethodTags {
         if(i==0){
             throw new Exception();
         }
-//        int c;
-//        c= i+ j;
+        int c;
+        c= i+ j;
 //        return c;
 //    }
 }
