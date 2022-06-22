@@ -18,6 +18,7 @@ public class CWH_CH16_77_AnnotationsJava {
     @SuppressWarnings("deprecation")
     public static void main(String[] args) {
         NewPhone phone = new NewPhone();
+        //just
         phone.showTime();
         phone.sum(5, 6);
     }
