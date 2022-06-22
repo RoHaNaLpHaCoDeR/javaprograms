@@ -52,9 +52,9 @@ public class CWH_CH16_78_AnonymousClasses_LambdaExpressions {
 //        DemoAno obj = ()->{
 //            System.out.println("I am method 1 from this lambda");
 //        };
-//        DemoAno obj1 = (a)->{
-//            System.out.println(a);
-//        };
+        DemoAno obj1 = (a)->{
+            System.out.println(a);
+        };
 //        obj.meth1();
         obj1.meth1(6);
    }
